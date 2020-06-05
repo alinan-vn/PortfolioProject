@@ -440,6 +440,10 @@
   .about__bio {
     font-size: 1.5rem;
   }
+  .about footer {
+    -webkit-transform: rotate(0deg) translate(0, 0);
+            transform: rotate(0deg) translate(0, 0);
+  }
   .projects__bio-image {
     height: 40vh;
   }
@@ -449,6 +453,10 @@
   }
   .projects .text-secondary {
     font-size: 3rem;
+  }
+  .projects footer {
+    -webkit-transform: rotate(0deg) translate(0, 0);
+            transform: rotate(0deg) translate(0, 0);
   }
   .contact__list {
     -ms-grid-columns: (1fr)[2];

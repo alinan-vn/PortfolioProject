@@ -24,9 +24,18 @@
         }
     }
 
-    .about__bio {
-        font-size: 1.5rem;
+    .about {
+        &__bio {
+            font-size: 1.5rem;
+        }
+
+        footer {
+            transform: 
+                rotate(0deg)
+                translate(0, 0);
+        }
     }
+    
 
     .projects {
         &__bio-image {
@@ -38,11 +47,18 @@
         .text-secondary {
             font-size: 3rem;
         }
+
+        footer {
+            transform: 
+                rotate(0deg)
+                translate(0, 0);
+        }
     }
 
     .contact__list {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @include media-lg {
