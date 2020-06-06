@@ -10,7 +10,7 @@
                 rgba($primary-color, 0.8),
                 rgba($primary-color, 0.2)
             ),
-            url('../img/profile-smile.jpg') center top;
+            url($background-picture) center top;
         background-size: cover;
         display: flex;
         flex-direction: column;
