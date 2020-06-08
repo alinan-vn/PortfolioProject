@@ -27,7 +27,11 @@
         text-align: center;
 
         .text-secondary {
-            padding-bottom: 1rem;
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            line-height: 1.2rem;
         }
     }
     
@@ -48,6 +52,11 @@
             }
             h6{
                 margin: 0.3rem 0;
+            }
+            p {
+                margin: 0.3rem 0;
+                padding: 0.5rem;
+                line-height: 1.2rem;
             }
         }
     }

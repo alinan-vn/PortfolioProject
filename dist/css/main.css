@@ -220,7 +220,11 @@
 }
 
 .about__bio .text-secondary {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.about__bio p {
+  line-height: 1.2rem;
 }
 
 .about .jobs {
@@ -245,6 +249,12 @@
 
 .about .jobs__job h6 {
   margin: 0.3rem 0;
+}
+
+.about .jobs__job p {
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  line-height: 1.2rem;
 }
 
 .about .social-icons {
